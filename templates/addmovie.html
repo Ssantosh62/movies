@@ -1,0 +1,11 @@
+<body>
+    <div class="container" align="center">
+        <h1>Add Movie Information</h1>
+        <form method="post">
+            {{form.as_p}}
+            {% csrf_token %}
+            <input class="btn btn-primary" type="submit" value="Add Movie">
+        </form>
+
+    </div>
+</body>
